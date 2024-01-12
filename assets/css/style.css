@@ -79,6 +79,43 @@ main {
     flex: 1;
 }
 
+/*--------- index page ---------*/
+
+#website-into-section {
+    font-family: "lemon", "oswald", sans-serif;
+    color: #f9dec9;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#welcome-section-text h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+#welcome-section-text h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#welcome-section-text p {
+    font-size: 20px;
+}
+
+#button-navigation-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#button-navigation-section a {
+    font-family: "lemon", "oswald", sans-serif;
+    color: #f9dec9;
+    text-align: center;
+    background-color: #3d0c11;
+    padding: 20px;
+    margin: 10px;
+}
+
 /*--------- Footer ---------*/
 
 footer {
