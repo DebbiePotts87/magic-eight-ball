@@ -1,5 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Oswald&family=Roboto:wght@100;300;400;500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/*--------- Font changes ---------*/
+
+#uppercase {
+    text-transform: uppercase;
+}
+
+/*--------- Header ---------*/
+
+.header-title {
+    font-family: "lemon", "oswald", sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #f9dec9;
+}
+
+.navbar-toggler {
+    color: #f9dec9;
+    font-size: 30px;
+}
+
+#menu-title button {
+    background: none;
+    outline: inherit;
+    font: inherit;
+}
+
+#close-button-icon {
+    color: #f9dec9;
+    font-size: 30px;
+}
+
+#nav-bar-surround {
+    padding: 0;
+}
+
+#nav-bar-background {
+    background-color: #3d0c11;
+}
+
+#menu-background {
+    background-color: #3d0c11;
+}
+
+#menu-background li a {
+    color: #f9dec9;
+    font-size: 20px;
+    font-family: "lemon", "oswald", sans-serif;
+}
+
+#menu-title {
+    background-color: #3d0c11;
+}
+
+#menu-title h5 {
+    font-size: 40px;
+    font-family: "lemon", "oswald", sans-serif;
+    color: #f9dec9;
+}
+
+/*--------- Padding/Margins ---------*/
+
+body {
+    background-color: #d80032;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+/*--------- Footer ---------*/
+
+footer {
+    background-color: #3d0c11;
+}
+
+.github-footer {
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.github-footer li a {
+    color: #f9dec9;
+}
+
+.github-footer-link {
+    float: right;
+    list-style-type: none;
 }
