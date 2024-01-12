@@ -133,7 +133,7 @@ main {
     color: #f9dec9;
 }
 
-.eight-ball-answer {
+#eight-ball-answer {
     font-family: "lemon", "oswald", sans-serif;
     color: #f9dec9;
     text-align: center;
