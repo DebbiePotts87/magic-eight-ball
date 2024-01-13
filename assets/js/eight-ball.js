@@ -1,39 +1,43 @@
 
 
+let eightBallButton = document.getElementById("eight-ball-submit");
+eightBallButton.addEventListener('click', eightBall);
+
 function eightBall() {
 
     let randomNumber = Math.floor(Math.random() * 8);
-    let eightBall = '';
-    
+    let text;
+        
     switch (randomNumber) {
     case 1:
-    console.log('It is certain');
+    text = 'It is certain';
     break;
     case 2:
-    console.log('It is decidedly so');
+    text = 'It is decidedly so';
     break;
     case 3:
-    console.log('Reply hazy try again');
+    text = 'Reply hazy try again';
     break;
     case 4:
-    console.log('Cannot predict now');
+    text = 'Cannot predict now';
     break;
     case 5:
-    console.log('Do not count on it');
+    text = 'Do not count on it';
     break;
     case 6:
-    console.log('My sources say no');
+    text = 'My sources say no';
     break;
     case 7:
-    console.log('Outlook not so good');
+    text = 'Outlook not so good';
     break;
     case 8:
-    console.log('Signs point to yes');
+    text = 'Signs point to yes';
     break;
     case 0:
-    console.log('WOW this sucks');
+    text = 'Wiggle me some more';
     break;
     default:
-    console.log(eightBall); 
-   };
+    text = 'OOPS please try again'; 
+   }
+   document.getElementById('eight-ball-answer').innerHTML = text
 }
