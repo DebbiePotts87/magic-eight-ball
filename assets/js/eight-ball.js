@@ -1,5 +1,4 @@
 
-
 let eightBallButton = document.getElementById("eight-ball-submit");
 eightBallButton.addEventListener('click', eightBall);
 
