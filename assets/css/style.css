@@ -183,3 +183,35 @@ footer {
     float: right;
     list-style-type: none;
 }
+
+/*--------- Media Queries ---------*/
+
+@media only screen and (max-width: 576px) {
+    .page-title {
+        font-size: 18px;
+    }
+     
+    #menu-button {
+        font-size: 25px;
+    }
+
+    #github-footer-icon {
+        font-size: 35px;
+    }
+        
+}
+
+@media only screen and (max-width: 395px) {
+    .page-title {
+        font-size: 15px;
+    }
+    
+    #menu-button {
+        font-size: 25px;
+    }
+
+    #github-footer-icon {
+        font-size: 35px;
+    }
+
+}
