@@ -3,7 +3,7 @@
 
 [View the live project here](https://debbiepotts87.github.io/magic-eight-ball/index.html)
 
-A basic game website to show contitional and control flow statements.
+A basic game website to show conditional and control flow statements.
 
 ![mockup](assets/images/mockup.png)
 
