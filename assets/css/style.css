@@ -168,6 +168,7 @@ main {
 
 footer {
     background-color: #3d0c11;
+    bottom: 0;
 }
 
 .github-footer {
